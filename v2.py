@@ -55,9 +55,9 @@ class SPAM:
         return f"""                      {Col.Symbol(symbol, self.red, self.blue)} {self.red}{text}{Col.reset}"""
     def banner(self):
         os.system("cls" if os.name == "nt" else "clear")
-        title = '\n\n\n 🚀TOOL SPAM SMS 🚀'
+        title = '\n\n\n 🚀 COBRA C2 ⚔️'
         banner = '''\n
-=====[HTB-SPAM]=====
+
 
                                 ,-.
                                ( O_)
