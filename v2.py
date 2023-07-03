@@ -60,8 +60,8 @@ class SPAM:
 ╔═╗┬─┐┌─┐─┐ ┬┬ ┬  ┌─┐┌─┐┬─┐┌─┐┌─┐┌─┐┌─┐┬─┐
 ╠═╝├┬┘│ │┌┴┬┘└┬┘  └─┐│  ├┬┘├─┤├─┘├─┘├┤ ├┬┘
 ╩  ┴└─└─┘┴ └─ ┴   └─┘└─┘┴└─┴ ┴┴  ┴  └─┘┴└─
-                         [ V2 ]
- contact: https://www.facebook.com/TrungHieu.User.1                                
+                                     [ V2 ]
+                                
                                \n\n'''
         print(Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_red, Col.light_blue)), Center.XCenter(banner)))
     def random_string(self, length):
@@ -321,13 +321,13 @@ class SPAM:
     def run(self):
         while True:
             self.banner()
-            self.phone = input(self.format_input("=",f"|Proxy Scapper| NHẬP SỐ ĐIỆN THOẠI CẦN SPAM: "))
+            self.phone = input(self.format_input(" </> ",f"NHẬP SỐ ĐIỆN THOẠI CẦN SPAM: "))
             if self.phone != '0337021245':
                 if len(self.phone) == 10:
                     break
-                print(self.format_print("!", "SỐ ĐIỆN THOẠI DƯỚI 10 SỐ XIN NHẬP LẠI"))
+                print(self.format_print("[ </> ]", "SỐ ĐIỆN THOẠI DƯỚI 10 SỐ XIN NHẬP LẠI"))
             if self.phone == '0326023566':
-                print(self.format_print("!", "SỐ CỦA ANH SPAM CC"))
+                print(self.format_print("[ </> ]", "SỐ CỦA ANH SPAM CC"))
             time.sleep(3)
             
         
